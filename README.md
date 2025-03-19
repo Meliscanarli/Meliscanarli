@@ -1,5 +1,5 @@
-GlOBAL AI HUB AKBANK PYTHON İLE YAPAY ZEKAYA GİRİŞ BOOTCAMP PROJESİ
-Sürücüsüz Metro Simülasyonu (Rota Optimizasyonu)
+# GlOBAL AI HUB AKBANK PYTHON İLE YAPAY ZEKAYA GİRİŞ BOOTCAMP PROJESİ
+# Sürücüsüz Metro Simülasyonu (Rota Optimizasyonu)
 # Bu projede, Ankara şehrindeki bir metro ağında iki istasyon arasındaki A* algoritması ile en hızlı ve BFS (Breadth-First Search) algoritması ile en az aktarmalı rotayı bulan bir simülasyon geliştirmeyi hedefledik. 
 'defaultdict' varsayılan bir değer tipi belirleyebilme özelliğine sahiptir ve bu simülasyonda metro hatlarını ve istasyon bağlantılarını saklamak için kullanılmıştır.
 'deque (double-ended queue)', hızlı ekleme ve çıkarma işlemleri yapabilen bir veri yapısıdır. FIFO veya LIFO işlemleri için sıklıkla kullanılmaktadır.
