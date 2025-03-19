@@ -7,7 +7,7 @@
 'defaultdict' varsayılan bir değer tipi belirleyebilme özelliğine sahiptir ve bu simülasyonda metro hatlarını ve istasyon bağlantılarını saklamak için kullanılmıştır.
 'deque (double-ended queue)', hızlı ekleme ve çıkarma işlemleri yapabilen bir veri yapısıdır. FIFO veya LIFO işlemleri için sıklıkla kullanılmaktadır.
 'heapq' (Heap Queue - Yığın Kuyruğu) öncelik kuyruğu (priority queue) veya minimum yığın (min-heap) veri yapısını kullanmamızı sağlar. Bu simülasyonda A* algoritmasını uygularken yani en hzılı rotayı hesaplamak için kulllanılmıştır.
-Dict, List, Optional, Tuple veri tiplerini belirtmek için kullanılır. Python'un statik kontrol yapmasını sağlar ve kodu daha okunaklı hale getirir. Bu simülasyonda istasyonları, komşuları ve bağlantıları tutmak için kullanılmıştır.
+ Dict, List, Optional, Tuple veri tiplerini belirtmek için kullanılır. Python'un statik kontrol yapmasını sağlar ve kodu daha okunaklı hale getirir. Bu simülasyonda istasyonları, komşuları ve bağlantıları tutmak için kullanılmıştır.
 'networkx (nx)' kütüphanesi ağ grafikleri oluşturmak ve analiz etmek için kullanılmaktadır.
 'matplotlib.pyplot (plt)' kütüphanesi grafikleri görselleştirmek için kullanılmaktadır. Bu simülasyonda istasyonları ve bağlantıları modellemek için kullanılmıştır.
 
