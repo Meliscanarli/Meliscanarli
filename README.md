@@ -40,7 +40,6 @@ graph = {
     'E': ['B', 'D']
 }
 def bfs(graph, start):
-  """BFS fonksiyonu"""
   visited = set()         #Ziyaret edilen düğümleri takip etmek için boş bir küme oluştur
   queue = [start]    #Kuyruk veri yapısı, başlangıç düğümü ile başlatılır
 
