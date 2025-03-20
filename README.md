@@ -39,6 +39,7 @@ graph = {
     'D': ['A', 'E'],
     'E': ['B', 'D']
 }
+
 def bfs(graph, start):
   visited = set()         #Ziyaret edilen düğümleri takip etmek için boş bir küme oluştur
   queue = [start]    #Kuyruk veri yapısı, başlangıç düğümü ile başlatılır
