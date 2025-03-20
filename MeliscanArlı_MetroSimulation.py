@@ -161,6 +161,7 @@ if __name__ == "__main__":
         rota, sure = sonuc
         print(f"En hızlı rota ({sure} dakika):", " -> ".join(i.ad for i in rota)) 
 
+#Aşti'den OSB'ye en kısa rotanın şematik gösterimi
 import networkx as nx
 import matplotlib.pyplot as plt
 
