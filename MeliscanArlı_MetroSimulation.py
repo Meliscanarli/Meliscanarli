@@ -29,6 +29,8 @@ class MetroAgi:
         istasyon1.komsu_ekle(istasyon2, sure)
         istasyon2.komsu_ekle(istasyon1, sure)
 
+    #BFS Algoritması ile en az aktarmalı rotayı bul.
+    
     def en_az_aktarma_bul(self, baslangic_id: str, hedef_id: str) -> Optional[List[Istasyon]]:
         if baslangic_id not in self.istasyonlar or hedef_id not in self.istasyonlar:
             return None
@@ -52,6 +54,8 @@ class MetroAgi:
         
         return None
 
+    #A* Algoritması ile en hızlı rotayı bul.
+    
     def en_hizli_rota_bul(self, baslangic_id: str, hedef_id: str) -> Optional[Tuple[List[Istasyon], int]]:
         if baslangic_id not in self.istasyonlar or hedef_id not in self.istasyonlar:
             return None
@@ -161,7 +165,7 @@ if __name__ == "__main__":
         rota, sure = sonuc
         print(f"En hızlı rota ({sure} dakika):", " -> ".join(i.ad for i in rota)) 
 
-#Aşti'den OSB'ye en kısa rotanın şematik gösterimi
+#Aşti'den OSB'ye en az aktarmalı rotanın şematik gösterimi
 import networkx as nx
 import matplotlib.pyplot as plt
 
