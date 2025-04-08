@@ -1,4 +1,4 @@
-# :rocket: GlOBAL AI HUB AKBANK PYTHON İLE YAPAY ZEKAYA GİRİŞ BOOTCAMP PROJESİ
+# :rocket: GLOBAL AI HUB AKBANK PYTHON İLE YAPAY ZEKAYA GİRİŞ BOOTCAMP PROJESİ
 # 🚇 Sürücüsüz Metro Simülasyonu (Rota Optimizasyonu)
 
 ⚡ Bu projede, Ankara şehrindeki bir metro ağında iki istasyon arasındaki en hızlı rotayı A* algoritması ve en az aktarmalı rotayı BFS (Breadth-First Search) algoritması ile bulan bir simülasyon geliştirmeyi hedefledik. 
